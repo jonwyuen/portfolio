@@ -12,8 +12,8 @@ class Header extends Component {
         <div className='header-image-wrapper'>
           <img src={image} alt='Jonathan Yuen' />
           <div className='header-info'>
-            <h1>I'm Jonathan Yuen</h1>
-            <h3>A Bay Area based full stack software engineer</h3>
+            <h1>Jonathan Yuen</h1>
+            <h3><em>A full stack web developer from the Bay Area</em></h3>
           </div>
         </div>
       </div>
