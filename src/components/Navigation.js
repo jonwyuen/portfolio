@@ -9,7 +9,7 @@ class Navigation extends Component {
         <Navbar fixedTop={true} bsStyle='inverse'>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href='#home'>J/Y</a>
+              <a id="brand-logo" href='#home'>J/Y</a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>

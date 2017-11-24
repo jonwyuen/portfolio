@@ -3,3 +3,17 @@
   font-size: 16px;
   font-family: 'Roboto';
 }
+
+#brand-logo {
+  padding-left: 7px;
+  padding-top: 12px;
+  margin-top: 3px;
+  border: 1px solid gray;
+  border-radius: 100px;
+  height: 45px;
+  width: 45px;
+}
+
+#brand-logo:hover {
+  border: 1px solid white;
+}
