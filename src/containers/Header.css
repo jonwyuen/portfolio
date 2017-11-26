@@ -28,13 +28,52 @@
   font-size: 5vh;
 }
 
-@media screen and (max-width: 600px) {
+.media-icons {
+  margin-top: 20px;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate( -50%, -50% );
+}
+
+.media-icons span {
+  color: white;
+  font-size: 16px;
+  margin-right: 20px;
+  border-radius: 100%;
+  padding-top: 9px;
+  width: 35px;
+  height: 35px;
+}
+
+.media-icons span:hover {
+  opacity: 0.8;
+  color: lightgray;
+}
+
+.fa-envelope-o {
+  background-color: #dc4b3e;
+}
+
+.fa-linkedin {
+  background-color: #0077b5;
+}
+
+.fa-github {
+  background-color: #394149;
+}
+
+@media screen and (max-width: 1000px) {
 
   .header-info > h1 {
-    font-size: 7vh;
+    font-size: 8vh;
   }
 
   .header-info > h3 {
     font-size: 2.5vh;
+  }
+
+  .media-icons {
+    margin-top: 70px;
   }
 }
