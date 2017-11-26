@@ -1,17 +1,17 @@
 .nav {
   font-weight: bold;
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #brand-logo {
   padding-left: 7px;
-  padding-top: 12px;
-  margin-top: 3px;
+  padding-top: 10px;
+  margin-top: 5px;
   border: 1px solid gray;
-  border-radius: 100px;
-  height: 45px;
-  width: 45px;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
 }
 
 #brand-logo:hover {
