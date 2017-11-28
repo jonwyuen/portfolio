@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin-bottom: 100px;
 }
 
@@ -10,9 +11,22 @@
   border-radius: 10px;
   height: 300px;
   width: 300px;
+  background-color: white;
 }
 
-.skill-group h4 {
-  padding: 15px;
+.skill-group h3 {
+  padding: 10px;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.skill-group span.fa {
+  margin-top: 20px;
+  font-size: 45px;
+}
+
+.skill-detail {
+  padding-top: 15px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
