@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import Contact from '../components/Contact';
 import './Footer.css';
 
 class Footer extends Component {
