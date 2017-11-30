@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: #323232;
+}
+
+.media-icons-footer {
+  padding-top: 7px;
+}
+
+.copyright {
+  color: white;
+  font-size: 12px;
+  padding-right: 20px;
+  margin-top: 7px;
+}

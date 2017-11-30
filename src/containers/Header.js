@@ -15,7 +15,7 @@ class Header extends Component {
             <h1>Jonathan Yuen</h1>
             <h3><em>A full stack web developer from the Bay Area</em></h3>
           </div>
-          <div className='media-icons'>
+          <div className='media-icons media-icons-header'>
             <a href="mailto:jownyuen@gmail.com"><span className='fa fa-envelope-o'></span></a>
             <a href="https://www.linkedin.com/in/jonathanyuen"><span className='fa fa-linkedin'></span></a>
             <a href="https://github.com/jonwyuen"><span className='fa fa-github'></span></a>
