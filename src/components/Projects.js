@@ -7,7 +7,7 @@ class Projects extends Component {
       <div className="projects">
         <div className="project-section">
           <span />
-          <h3>Tunelark</h3>
+          <h2>Tunelark</h2>
           <h4>Company Project</h4>
           <div className="project-detail">
             <div className='project-tech'>
@@ -26,7 +26,7 @@ class Projects extends Component {
         </div>
         <div className="project-section">
           <span />
-          <h3>UCSF Cams</h3>
+          <h2>UCSF Cams</h2>
           <h4>Company Project</h4>
           <div className="project-detail">
             <div className='project-tech'>
@@ -46,7 +46,7 @@ class Projects extends Component {
         <div className="project-section">
           <div className='project-body'>
             <span />
-            <h3>MapIt</h3>
+            <h2>MapIt</h2>
             <h4>Personal Project</h4>
             <div className="project-detail">
               <div className='project-tech'>
@@ -68,7 +68,7 @@ class Projects extends Component {
         <div className="project-section">
           <div className='project-body'>
             <span />
-            <h3>Warbler</h3>
+            <h2>Warbler</h2>
             <h4>Personal Project</h4>
             <div className="project-detail">
               <div className='project-tech'>

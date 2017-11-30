@@ -10,6 +10,8 @@
   border-radius: 10px;*/
 /*  background-color: #BDB0A0;
 */  font-size: 20px;
+font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 .about img {
@@ -22,6 +24,5 @@
 }
 
 .about-text {
-  padding-top: 50px;
-  font-family: "Roboto";
+  padding-top: 40px;
 }
