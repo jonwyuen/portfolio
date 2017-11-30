@@ -3,13 +3,59 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 20px;
+  margin-bottom: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .project-section {
-  width: 35%;
+  width: 450px;
   border: 1px solid lightgray;
   border-radius: 10px;
-  height: 200px;
   margin: 10px;
+  background-color: white;
+  position: relative;
+}
+
+.project-body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.project-links {
+  position: absolute;
+  top: 50%;
+  display: none;
+  transform: translate(-50%,-50%);
+}
+
+.project-links div {
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: #323232;
+  cursor: pointer;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.project-links div:hover {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.project-links div:hover a {
+  color: black;
+}
+
+.project-section:hover .project-body {
+  opacity: 0.2;
+}
+
+.project-section:hover .project-links {
+  display: inline;
+  opacity: 1;
 }
