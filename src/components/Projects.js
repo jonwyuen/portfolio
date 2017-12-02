@@ -6,41 +6,53 @@ class Projects extends Component {
     return (
       <div className="projects">
         <div className="project-section">
-          <span />
-          <h2>Tunelark</h2>
-          <h4>Company Project</h4>
-          <div className="project-detail">
-            <div className='project-tech'>
-              Technologies Used: 
+          <div className='project-body'>
+            <span />
+            <h2>Tunelark</h2>
+            <h4>Software Engineer, Contract</h4>
+            <div className="project-detail">
+              <div className='project-tech'>
+                Technologies Used: 
+                <p>
+                  JavaScript, ReactJS, Redux, SCSS, Ruby on Rails, ActiveRecord, PostgreSQL
+                </p>
+              </div>
               <p>
-                JavaScript, ReactJS, Redux, SCSS, Ruby on Rails, ActiveRecord, PostgreSQL
+                Web application for learning music theory, ear training, and sight reading for all instruments in a fun and effective way.
+              </p>
+              <p>
+                My contributions can be found on LinkedIn/resume
               </p>
             </div>
-            <p>
-              Web application for learning music theory, ear training, and sight reading for all instruments in a fun and effective way.
-            </p>
-            <p>
-              My contributions can be found on LinkedIn/resume
-            </p>
+          </div>
+          <div className='project-links'>
+            <div><a href="https://map-it-app.herokuapp.com" target="_blank">Live Site</a></div>
+            <div><a href="https://github.com/jonwyuen/map_it" target="_blank">Source Code</a></div>
           </div>
         </div>
         <div className="project-section">
-          <span />
-          <h2>UCSF Cams</h2>
-          <h4>Company Project</h4>
-          <div className="project-detail">
-            <div className='project-tech'>
-              Technologies Used: 
+          <div className='project-body'>
+            <span />
+            <h2>UCSF</h2>
+            <h4>Software Engineer, Contract</h4>
+            <div className="project-detail">
+              <div className='project-tech'>
+                Technologies Used: 
+                <p>
+                  JavaScript, ReactJS, Python, Flask, SQLAlchemy, Boto, AWS S3, PostgreSQL
+                </p>
+              </div>
               <p>
-                JavaScript, ReactJS, Python, Flask, SQLAlchemy, Boto, AWS S3, PostgreSQL
+                Web application for UCSF Band Lab that helps doctors diagnose mental illness in incoming patients.
+              </p>
+              <p>
+                My contributions can be found on LinkedIn/resume
               </p>
             </div>
-            <p>
-              Web application for UCSF Band Lab that helps doctors diagnose mental illness in incoming patients.
-            </p>
-            <p>
-              My contributions can be found on LinkedIn/resume
-            </p>
+          </div>
+          <div className='project-links'>
+            <div><a href="https://map-it-app.herokuapp.com" target="_blank">Live Site</a></div>
+            <div><a href="https://github.com/jonwyuen/map_it" target="_blank">Source Code</a></div>
           </div>
         </div>
         <div className="project-section">
