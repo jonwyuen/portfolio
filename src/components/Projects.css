@@ -88,3 +88,11 @@
   padding-top: 10px;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 525px) {
+
+  .project-links img {
+    width: 350px;
+    height: 325px;
+  }
+}
