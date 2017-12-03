@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './About.css';
-
-const aboutImage = require('../images/profile.jpg')
+import aboutImage from '../images/profile.jpg'
 
 class About extends Component {
   render() {
