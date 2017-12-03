@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Projects.css';
 import tunelarkLogo from '../images/tunelark.png'
+import tunelarkFeature from '../images/tunelarkfeature.png'
 import ucsfLogo from '../images/ucsf.png'
+import ucsfFeature from '../images/ucsffeature.png'
 import mapitLogo from '../images/mapit.png'
 import warblerLogo from '../images/warbler.png'
 
@@ -16,7 +18,7 @@ class Projects extends Component {
             <h4>Software Engineer, Contract</h4>
             <div className='project-detail'>
               <p>
-                Web application for learning music theory, ear training, and sight reading for all instruments in a fun and effective way.
+                <em>Web application for learning music theory, ear training, and sight reading for all instruments in a fun and effective way.</em>
               </p>
               <div className='project-tech'>
                 Technologies Used: 
@@ -25,38 +27,46 @@ class Projects extends Component {
                 </p>
               </div>
               <p>
-                My contributions can be found on LinkedIn/resume
+                <strong>Main contribution</strong>: Developed account edit modal for settings menu, rendered across over 95% of front end views.
+              </p>
+              <p>
+                More detailed contributions can be found on my LinkedIn/resume
               </p>
             </div>
           </div>
           <div className='project-links'>
-            <div><a href='https://map-it-app.herokuapp.com' target='_blank'>Live Site</a></div>
-            <div><a href='https://github.com/jonwyuen/map_it' target='_blank'>Source Code</a></div>
+            <img src={tunelarkFeature} alt="Tunelark Feature"/>
+            <div className='project-site'><a href='https://www.tunelark.com' target='_blank'>Live Site</a></div>
+            <p>Github Repository is private. Upon requested, I can show some code snippets.</p>
           </div>
         </div>
         <div className='project-section'>
           <div className='project-body'>
             <span><img src={ucsfLogo} alt='UCSF'/></span>
-            <h2>UCSF</h2>
+            <h2>UCSF CAMS</h2>
             <h4>Software Engineer, Contract</h4>
             <div className='project-detail'>
               <p>
-                Web application for UCSF Band Lab that helps doctors diagnose mental illness in incoming patients.
+                <em>Web application for UCSF Band Lab that helps doctors diagnose mental illness in incoming patients.</em>
               </p>
               <div className='project-tech'>
                 Technologies Used: 
                 <p>
-                  JavaScript, ReactJS, Python, Flask, SQLAlchemy, Boto, AWS S3, PostgreSQL
+                  JavaScript, ReactJS, Python, Flask, SQLAlchemy, AWS (S3, Boto), PostgreSQL
                 </p>
               </div>
               <p>
-                My contributions can be found on LinkedIn/resume
+                <strong>Main contribution</strong>: Implemented feature for doctors to upload mental health assessment videos, supporting 4X more media formats and reducing playlist creation time by 70%.
+              </p>
+              <p>
+                More detailed contributions can be found on my LinkedIn/resume
               </p>
             </div>
           </div>
           <div className='project-links'>
-            <div><a href='https://map-it-app.herokuapp.com' target='_blank'>Live Site</a></div>
-            <div><a href='https://github.com/jonwyuen/map_it' target='_blank'>Source Code</a></div>
+            <img src={ucsfFeature} alt="UCSF Feature"/>
+            <div className='project-site'><a href='https://cams-ucsf.herokuapp.com' target='_blank'>Live Site</a></div>
+            <p>Github Repository is private. Upon requested, I can show some code snippets.</p>
           </div>
         </div>
         <div className='project-section'>
@@ -66,7 +76,7 @@ class Projects extends Component {
             <h4>Personal Project</h4>
             <div className='project-detail'>
               <p>
-                Web application that allows users to search and favorite locations with current weather info and time.
+                <em>Web application that allows users to search and favorite locations with current weather info and time.</em>
               </p>
               <div className='project-tech'>
                 Technologies Used: 
@@ -88,7 +98,7 @@ class Projects extends Component {
             <h4>Personal Project</h4>
             <div className='project-detail'>
               <p>
-                A social media platform modeled after Twitter, in which users can exchange messages.
+                <em>A social media platform modeled after Twitter, in which users can interact with others through following and exchanging messages.</em>
               </p>
               <p>
                 **Work in progress**

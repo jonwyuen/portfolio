@@ -8,8 +8,8 @@
 }
 
 .project-section {
-  width: 450px;
-  padding: 20px;
+  width: 500px;
+  padding: 25px;
   border: 1px solid lightgray;
   border-radius: 10px;
   margin: 10px;
@@ -31,11 +31,12 @@
   position: absolute;
   top: 50%;
   display: none;
+  text-align: center;
   transform: translate(-50%,-50%);
 }
 
 .project-links div {
-  padding: 10px;
+  padding: 8px;
   margin: 20px;
   border: 1px solid white;
   border-radius: 20px;
@@ -43,9 +44,19 @@
   cursor: pointer;
 }
 
-.project-links a {
+.project-links div a {
   text-decoration: none;
   color: white;
+}
+
+.project-site {
+  width: 80px;
+  display: inline-block;
+}
+
+.project-links img {
+  width: 475px;
+  height: 325px;
 }
 
 .project-links div:hover {
@@ -55,6 +66,12 @@
 
 .project-links div:hover a {
   color: black;
+}
+
+.project-links p {
+  border: 1px solid black;
+  background-color: white;
+  font-size: 14px;
 }
 
 .project-section:hover .project-body {
@@ -68,4 +85,6 @@
 
 .project-tech {
   border: 1px solid black;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
