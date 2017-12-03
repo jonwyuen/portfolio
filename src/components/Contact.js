@@ -14,7 +14,7 @@ class Contact extends Component {
         </div>
         <div className='contact-section'>
           <span className='fa fa-envelope'></span>
-          <span>jonwyuen@gmail.com</span>
+          <span><a href="mailto:jonwyuen@gmail.com">jonwyuen@gmail.com</a></span>
         </div>
         <div className='contact-section'>
           <span className='fa fa-map-marker'></span>

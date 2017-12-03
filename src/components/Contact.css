@@ -22,3 +22,8 @@
 .contact-section span.fa {
   margin-right: 10px;
 }
+
+.contact-section span a {
+  text-decoration: none;
+  color: white;
+}

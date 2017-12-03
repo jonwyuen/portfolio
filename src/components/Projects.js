@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Projects.css";
+import tunelarkLogo from '../images/tunelark.png'
+import ucsfLogo from '../images/ucsf.png'
 
 class Projects extends Component {
   render() {
@@ -7,7 +9,7 @@ class Projects extends Component {
       <div className="projects">
         <div className="project-section">
           <div className='project-body'>
-            <span />
+            <span><img src={tunelarkLogo} alt="Tunelark"/></span>
             <h2>Tunelark</h2>
             <h4>Software Engineer, Contract</h4>
             <div className="project-detail">
@@ -32,7 +34,7 @@ class Projects extends Component {
         </div>
         <div className="project-section">
           <div className='project-body'>
-            <span />
+            <span><img src={ucsfLogo} alt="UCSF"/></span>
             <h2>UCSF</h2>
             <h4>Software Engineer, Contract</h4>
             <div className="project-detail">
