@@ -1,17 +1,11 @@
 .about {
-/*  display: flex;
-  flex-direction: row;*/
   display: inline-block;
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 30px;
   width: 100%;
-/*  border: 0.5px solid lightgray;
-  border-radius: 10px;*/
-/*  background-color: #BDB0A0;
-*/  font-size: 20px;
-font-family: 'Roboto Condensed', sans-serif;
-
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .about img {
