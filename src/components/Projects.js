@@ -36,7 +36,7 @@ class Projects extends Component {
           </div>
           <div className='project-links'>
             <img src={tunelarkFeature} alt="Tunelark Feature"/>
-            <div className='project-site'><a href='https://www.tunelark.com' target='_blank'>Live Site</a></div>
+            <div className='project-site'><a href='https://www.tunelark.com' target='_blank' rel='noopener noreferrer'>Live Site</a></div>
             <p>Github Repository is private. Upon requested, I can show some code snippets.</p>
           </div>
         </div>
@@ -65,7 +65,7 @@ class Projects extends Component {
           </div>
           <div className='project-links'>
             <img src={ucsfFeature} alt="UCSF Feature"/>
-            <div className='project-site'><a href='https://cams-ucsf.herokuapp.com' target='_blank'>Live Site</a></div>
+            <div className='project-site'><a href='https://cams-ucsf.herokuapp.com' target='_blank' rel='noopener noreferrer'>Live Site</a></div>
             <p>Github Repository is private. Upon requested, I can show some code snippets.</p>
           </div>
         </div>
@@ -87,8 +87,8 @@ class Projects extends Component {
             </div>
           </div>
           <div className='project-links'>
-            <div><a href='https://map-it-app.herokuapp.com' target='_blank'>Live Site</a></div>
-            <div><a href='https://github.com/jonwyuen/map_it' target='_blank'>Source Code</a></div>
+            <div><a href='https://map-it-app.herokuapp.com' target='_blank' rel='noopener noreferrer'>Live Site</a></div>
+            <div><a href='https://github.com/jonwyuen/map_it' target='_blank' rel='noopener noreferrer'>Source Code</a></div>
           </div>
         </div>
         <div className='project-section'>
@@ -112,8 +112,8 @@ class Projects extends Component {
             </div>
           </div>
           <div className='project-links'>
-            <div><a href='javascript:void(0);'>N/A</a></div>
-            <div><a href='javascript:void(0);'>Work in progress</a></div>
+            <div><a>N/A</a></div>
+            <div><a>Work in progress</a></div>
           </div>
         </div>
       </div>

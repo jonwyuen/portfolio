@@ -9,13 +9,13 @@ class Main extends Component {
   render() {
     return (
       <div className='main'>
-        <a id='about'></a>
+        <a id='about'> </a>
         <About />
-        <a id='skills'></a>
+        <a id='skills'> </a>
         <Skills />
-        <a id='projects'></a>
+        <a id='projects'> </a>
         <Projects />
-        <a id='contact'></a>
+        <a id='contact'> </a>
         <Contact />
       </div>
     );
