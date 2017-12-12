@@ -7,10 +7,18 @@ const Footer = () => (
       <a href="mailto:jonwyuen@gmail.com">
         <span className="fa fa-envelope-o" />
       </a>
-      <a href="https://www.linkedin.com/in/jonathanyuen">
+      <a
+        href="https://www.linkedin.com/in/jonathanyuen"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <span className="fa fa-linkedin" />
       </a>
-      <a href="https://github.com/jonwyuen">
+      <a
+        href="https://github.com/jonwyuen"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <span className="fa fa-github" />
       </a>
     </div>

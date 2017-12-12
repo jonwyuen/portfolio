@@ -24,6 +24,16 @@ const About = () => (
       me to become a successful software developer. I hope you can become part
       of my journey!
     </div>
+    <div className="about-links">
+      <a href="">Download Resume</a>
+      <a
+        href="https://www.linkedin.com/in/jonathanyuen"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View LinkedIn
+      </a>
+    </div>
   </div>
 );
 
