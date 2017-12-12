@@ -1,6 +1,5 @@
 .about {
   display: inline-block;
-  margin-top: 50px;
   margin-bottom: 50px;
   padding: 30px;
   width: 100%;
@@ -22,7 +21,7 @@
 }
 
 .about-links {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .about-links > a {

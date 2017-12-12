@@ -4,8 +4,7 @@
 
 .header-image-wrapper {
   position: relative;
-/*  display: inline-block;
-*/}
+}
 
 .header-image-wrapper > img {
   width: 100%;

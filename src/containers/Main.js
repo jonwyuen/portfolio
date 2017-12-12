@@ -7,13 +7,13 @@ import "./Main.css";
 
 const Main = () => (
   <div className="main">
-    <a id="about"> </a>
+    <a className="main-links" id="about"> </a>
     <About />
-    <a id="skills"> </a>
+    <a className="main-links" id="skills"> </a>
     <Skills />
-    <a id="projects"> </a>
+    <a className="main-links" id="projects"> </a>
     <Projects />
-    <a id="contact"> </a>
+    <a className="main-links" id="contact"> </a>
     <Contact />
   </div>
 );

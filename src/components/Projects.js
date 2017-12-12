@@ -168,7 +168,7 @@ const Projects = () => (
       </div>
       <div className="project-links">
         <div>
-          <a>Work in progress</a>
+          <a>N/A</a>
         </div>
         <div>
           <a
