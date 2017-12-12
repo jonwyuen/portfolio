@@ -110,8 +110,7 @@ const Projects = () => (
         <div className="project-detail">
           <p>
             <em>
-              Web application that allows users to search and favorite locations
-              with current weather info and time.
+              Web mapping platform providing users ability to search and favorite locations with current weather info and time.
             </em>
           </p>
           <div className="project-tech">
@@ -154,8 +153,7 @@ const Projects = () => (
         <div className="project-detail">
           <p>
             <em>
-              A social media platform modeled after Twitter, in which users can
-              interact with others through following and exchanging messages.
+              Social media platform that enables users to instantly post and interact with messages.
             </em>
           </p>
           <p>**Work in progress**</p>
@@ -170,10 +168,16 @@ const Projects = () => (
       </div>
       <div className="project-links">
         <div>
-          <a>N/A</a>
+          <a>Work in progress</a>
         </div>
         <div>
-          <a>Work in progress</a>
+          <a
+            href="https://github.com/jonwyuen/warbler"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Source Code
+          </a>
         </div>
       </div>
     </div>
