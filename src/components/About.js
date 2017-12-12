@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImage from "../images/profile.jpg";
-import resume from "../pdfs/Jonathan_Yuen_Resume.pdf"
+import resume from "../pdfs/Jonathan_Yuen_Resume.pdf";
 
 const About = () => (
   <div className="about">
@@ -26,7 +26,9 @@ const About = () => (
       of my journey!
     </div>
     <div className="about-links">
-      <a href={resume}>Download Resume</a>
+      <a href={resume} target="_blank" rel="noopener noreferrer">
+        Download Resume
+      </a>
       <a
         href="https://www.linkedin.com/in/jonathanyuen"
         target="_blank"
