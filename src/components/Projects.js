@@ -9,7 +9,7 @@ import warblerLogo from "../images/warbler.png";
 
 const Projects = () => (
   <div className="projects">
-    <div className="project-section">
+    <div className="project-section" onClick="void(0)">
       <div className="project-body">
         <span>
           <img src={tunelarkLogo} alt="Tunelark" />
@@ -54,7 +54,7 @@ const Projects = () => (
         </p>
       </div>
     </div>
-    <div className="project-section">
+    <div className="project-section" onClick="void(0)">
       <div className="project-body">
         <span>
           <img src={ucsfLogo} alt="UCSF" />
@@ -100,7 +100,7 @@ const Projects = () => (
         </p>
       </div>
     </div>
-    <div className="project-section">
+    <div className="project-section" onClick="void(0)">
       <div className="project-body">
         <span>
           <img src={mapitLogo} alt="MapIt" />
@@ -143,7 +143,7 @@ const Projects = () => (
         </div>
       </div>
     </div>
-    <div className="project-section">
+    <div className="project-section" onClick="void(0)">
       <div className="project-body">
         <span>
           <img src={warblerLogo} alt="Warbler" />
