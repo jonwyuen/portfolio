@@ -6,10 +6,21 @@ import ucsfLogo from "../images/ucsf.png";
 import ucsfFeature from "../images/ucsffeature.png";
 import mapitLogo from "../images/mapit.png";
 import warblerLogo from "../images/warbler.png";
+import {version} from '../../package.json'
+
+const info = [
+  `Version: ${version}`,
+  `The code lives here: https://github.com/jonwyuen/portfolio`,
+  `Thank you for visiting`
+];
+
+for (const message of info) {
+  console.log(message);
+}
 
 const Projects = () => (
   <div className="projects">
-    <div className="project-section" onClick="">
+    <div className="project-section" >
       <div className="project-body">
         <span>
           <img src={tunelarkLogo} alt="Tunelark" />
@@ -54,7 +65,7 @@ const Projects = () => (
         </p>
       </div>
     </div>
-    <div className="project-section" onClick="">
+    <div className="project-section" >
       <div className="project-body">
         <span>
           <img src={ucsfLogo} alt="UCSF" />
@@ -100,7 +111,7 @@ const Projects = () => (
         </p>
       </div>
     </div>
-    <div className="project-section" onClick="">
+    <div className="project-section" >
       <div className="project-body">
         <span>
           <img src={mapitLogo} alt="MapIt" />
@@ -143,7 +154,7 @@ const Projects = () => (
         </div>
       </div>
     </div>
-    <div className="project-section" onClick="">
+    <div className="project-section" >
       <div className="project-body">
         <span>
           <img src={warblerLogo} alt="Warbler" />
