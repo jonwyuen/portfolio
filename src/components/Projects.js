@@ -43,7 +43,7 @@ class Projects extends Component {
           </div>
           <div className="project-links">
             <img src={tunelarkFeature} alt="Tunelark Feature" />
-            <div className="project-site">
+            <div>
               <a
                 href="https://www.tunelark.com"
                 target="_blank"
@@ -91,7 +91,7 @@ class Projects extends Component {
           </div>
           <div className="project-links">
             <img src={ucsfFeature} alt="UCSF Feature" />
-            <div className="project-site">
+            <div>
               <a
                 href="https://cams-ucsf.herokuapp.com"
                 target="_blank"

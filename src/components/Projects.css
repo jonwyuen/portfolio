@@ -37,21 +37,17 @@
 
 .project-links div {
   padding: 8px;
-  margin: 20px;
+  margin: 15px auto;
   border: 1px solid white;
   border-radius: 20px;
   background-color: #323232;
+  width: 90px;
   cursor: pointer;
 }
 
 .project-links div a {
   text-decoration: none;
   color: white;
-}
-
-.project-site {
-  width: 80px;
-  display: inline-block;
 }
 
 .project-links img {
