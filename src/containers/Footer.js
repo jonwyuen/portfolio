@@ -22,7 +22,7 @@ const Footer = () => (
         <span className="fa fa-github" />
       </a>
     </div>
-    <div className="copyright">&#169; 2017 Jonathan Yuen</div>
+    <div className="copyright">&#169; 2018 Jonathan Yuen</div>
   </div>
 );
 
