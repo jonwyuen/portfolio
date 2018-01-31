@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .skill-group {
@@ -11,6 +11,7 @@
   border-radius: 10px;
   height: 300px;
   width: 300px;
+  margin: 5px;
   background-color: white;
 }
 
