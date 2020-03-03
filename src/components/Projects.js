@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Project from "./Project";
-import "./Projects.css";
+import "../styles/Projects.css";
 import tunelarkLogo from "../images/tunelark.png";
 import tunelarkFeature from "../images/tunelarkfeature.png";
 import ucsfLogo from "../images/ucsf.png";

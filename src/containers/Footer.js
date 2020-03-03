@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "../styles/Footer.css";
 
 const Footer = () => (
   <div className="footer">
@@ -22,7 +22,7 @@ const Footer = () => (
         <span className="fa fa-github" />
       </a>
     </div>
-    <div className="copyright">&#169; 2019 Jonathan Yuen</div>
+    <div className="copyright">&#169; 2020 Jonathan Yuen</div>
   </div>
 );
 

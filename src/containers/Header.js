@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import "./Header.css";
+import "../styles/Header.css";
 import backgroundImg from "../images/sfbackground.jpg";
 
 const Header = () => (
