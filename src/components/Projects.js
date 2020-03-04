@@ -52,6 +52,19 @@ Projects.defaultProps = {
       sourceCode: ""
     },
     {
+      logo: "",
+      name: "Color Picker",
+      type: "Personal Project",
+      detail:
+        "Web application providing users ability to easily create their own color palettes and copy a selected color code.",
+      tech: "  JavaScript, ReactJS (Hooks), Material-UI, ChromaJS",
+      contrib: "",
+      feature: "",
+      inProgress: false,
+      liveSite: "",
+      sourceCode: "https://github.com/jonwyuen/color-picker"
+    },
+    {
       logo: mapitLogo,
       name: "MapIt",
       type: "Personal Project",
