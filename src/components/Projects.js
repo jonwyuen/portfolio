@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Project from "./Project";
 import "../styles/Projects.css";
 import tunelarkLogo from "../images/tunelark.png";
@@ -20,7 +20,7 @@ const allProjects = [
   {
     logo: tunelarkLogo,
     name: "Tunelark",
-    type: "Software Engineer, Contract",
+    type: "Software Developer, Contract",
     detail:
       "Web application for learning music theory, ear training, and sight reading for all instruments in a fun and effective way.",
     tech:
@@ -35,7 +35,7 @@ const allProjects = [
   {
     logo: ucsfLogo,
     name: "UCSF CAMS",
-    type: "Software Engineer, Contract",
+    type: "Software Developer, Contract",
     detail:
       "Web application for UCSF Band Lab that helps doctors diagnose mental illness in incoming patients.",
     tech:
