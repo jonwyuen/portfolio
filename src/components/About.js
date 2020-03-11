@@ -11,11 +11,10 @@ const About = () => (
     <h2>Hi, I'm Jonathan.</h2>
     <div className="about-text">
       I'm a software developer born and raised in San Francisco. Ever since I
-      was little, I have been fascinated by how new technologies are constantly
-      being developed. This curiosity for technology has led to my ever growing
-      collection of cell phones, laptops, tablets, and many other electronics.
-      More importantly, it sparked my desire to use my knowledge and skills to
-      create and share technology related things.
+      laid hands on a computer, I was fascinated by how the web contains a
+      massive amount of information and how it worked. This curiosity ultimately
+      sparked the desire to use my knowledge and creativity to build web
+      applications that others can use and enjoy.
     </div>
     <div className="about-text">
       I have always loved to solve problems, no matter the difficulty or
