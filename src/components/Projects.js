@@ -6,6 +6,7 @@ import tunelarkFeature from "../images/tunelarkfeature.png";
 import ucsfLogo from "../images/ucsf.png";
 import ucsfFeature from "../images/ucsffeature.png";
 import mapitLogo from "../images/mapit.png";
+import colorpickerLogo from "../images/colorpicker.png";
 import warblerLogo from "../images/warbler.png";
 import battleshipLogo from "../images/battleship.png";
 
@@ -48,7 +49,7 @@ const allProjects = [
     sourceCode: ""
   },
   {
-    logo: "",
+    logo: colorpickerLogo,
     name: "Color Picker",
     type: "Personal Project",
     detail:
@@ -57,7 +58,7 @@ const allProjects = [
     contrib: "",
     feature: "",
     inProgress: false,
-    liveSite: "",
+    liveSite: "https://colorpicker-app.herokuapp.com",
     sourceCode: "https://github.com/jonwyuen/color-picker"
   },
   {
