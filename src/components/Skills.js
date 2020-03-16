@@ -9,7 +9,10 @@ const Skills = () => (
       <div className="skill-detail">
         <p>
           Some front end technologies I have learned and worked with are{" "}
-          <strong>JavaScript, ReactJS, Redux, jQuery, HTML5, CSS3.</strong>
+          <strong>
+            JavaScript, ReactJS (Hooks), Redux, Material-UI, jQuery, HTML5,
+            CSS3.
+          </strong>
         </p>
       </div>
     </div>
